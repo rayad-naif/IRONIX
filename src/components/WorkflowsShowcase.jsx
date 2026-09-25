@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitBranch, Cpu, Database, Bot, ArrowRight, Zap, RefreshCw, CheckCircle2 } from 'lucide-react';
+import { GitBranch, Cpu, Database, Bot, Zap, CheckCircle2 } from 'lucide-react';
 
 export default function WorkflowsShowcase({ onOpenContact }) {
   const steps = [

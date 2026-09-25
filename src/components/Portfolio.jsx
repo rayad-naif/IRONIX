@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layers, CreditCard, Cpu, Activity, ExternalLink, Image as ImageIcon, ChevronRight, Sparkles, Filter, CheckCircle2 } from 'lucide-react';
+import { Layers, CreditCard, Cpu, Activity, Image as ImageIcon, ChevronRight, Sparkles } from 'lucide-react';
 
 export default function Portfolio({ onOpenContact }) {
   const [filter, setFilter] = useState('all');

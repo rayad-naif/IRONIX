@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Cpu, Bot, Rocket, ArrowRight, Terminal, Sparkles, Database, Layers, CheckCircle } from 'lucide-react';
+import { Cpu, Bot, ArrowRight, Sparkles, Layers, CheckCircle } from 'lucide-react';
 
 export default function Hero({ onOpenContact }) {
   return (

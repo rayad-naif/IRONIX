@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Mail, ArrowUp, Globe, Shield, Terminal, Code, Share2, MessageSquare } from 'lucide-react';
+import { Zap, Mail, ArrowUp, Globe, Shield, Code, Share2 } from 'lucide-react';
 
 export default function Footer({ onOpenContact }) {
   const scrollToTop = () => {

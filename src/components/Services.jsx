@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Code2, Cpu, Bot, ShoppingCart, Headphones, Check, ArrowRight, ShieldAlert, Sparkles, Layers, Zap } from 'lucide-react';
+import { Code2, Cpu, Bot, ShoppingCart, Headphones, Check, ArrowRight, Sparkles, Zap } from 'lucide-react';
 
 export default function Services({ onOpenContact }) {
   const [activeTab, setActiveTab] = useState(0);

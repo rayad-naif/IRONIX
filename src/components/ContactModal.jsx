@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Send, CheckCircle2, Sparkles, Building, Mail, User, Phone, MessageSquare } from 'lucide-react';
+import { X, Send, CheckCircle2, Sparkles, Building, Mail, User, Phone } from 'lucide-react';
 
 export default function ContactModal({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
