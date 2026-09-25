@@ -1,7 +1,7 @@
 import React from 'react';
-import { ShieldCheck, Clock, Award, TrendingUp, Users2, Headphones, Terminal } from 'lucide-react';
+import { ShieldCheck, Clock, Award, TrendingUp } from 'lucide-react';
 
-export default function WhyUs({ onOpenContact }) {
+export default function WhyUs() {
   const metrics = [
     { label: 'Uptime SLA Guarantee', value: '99.99%', detail: 'High availability cloud mesh' },
     { label: 'Avg Customer ROI', value: '4.2x', detail: 'Measured across automation deployments' },

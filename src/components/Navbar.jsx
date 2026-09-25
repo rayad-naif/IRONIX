@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Cpu, Menu, X, ArrowUpRight, Zap, ChevronRight } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Zap, ChevronRight } from 'lucide-react';
 
 export default function Navbar({ onOpenContact }) {
   const [scrolled, setScrolled] = useState(false);
